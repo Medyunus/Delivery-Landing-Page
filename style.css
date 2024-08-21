@@ -436,9 +436,11 @@ padding: 0.5rem;
         min-width: 300px; */
         border-radius: 2px;
     }
-    /* border-radius: 100px 20px 100px 20px; */
+    
 
 
+
+    /* services section style */
     .next-section{
         background: var(--primary);
        
@@ -475,40 +477,10 @@ padding: 0.5rem;
         width: 90%;
         margin: 0 auto;
         height: 90vh;
-
-        
-        
-
-
       }
 
-      .first-next{
-        /* border: 1px solid; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: white;
-      }
-      .second-next{
-        /* border: 1px solid; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: white;
-      }
-
-      .third-next{
-        /* border: 1px solid; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: white;
-      }
-
-      .next-image{
-   /* border: 1px solid; */
-   padding: 1.3rem;
-      }
+      
+    
 
       .title-next{
         display: flex;
@@ -520,14 +492,99 @@ padding: 0.5rem;
         line-height: 4vw;
       }
 
-      .title-quote{
+     
+
+/* menu section style */
+
+      .menu-section{
+        background: var(--primary);
+       
+       
+      }
+
+      .menu-title{
+        text-align: center;
+        padding-top: 6rem;
+       
+        
+      }
+
+      .menu-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        /* border: 1px solid; */
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        height: 140vh;
+        margin-top: 50px;
+      }
+
+      .menu-container{
+        border: 3px solid blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 5px;
+      }
+
+      .first-menu{
+        display: flex;
+        gap: 30px;
+      }
+
+      
+      .second-menu{
+        display: flex;
+        gap: 30px;
+      }
+
+      .menu-quote{
+        /* border: 1px solid; */
+        text-align: center;
+      }
+
+      .menu-header{
+        /* border: 1px solid; */
+        text-align: center;
+      }
+      
+      .menu-price{
+        /* border: 1px solid; */
+        text-align: center;
         color: blue;
-        font-size: 1.6rem;
-        font-weight: bold;
+    
       }
 
 
+
+      .rose-image{
+        /* border: 1px solid; */
+      }
+
+      .lemon-image{
+        /* border: 1px solid; */
+      }
+
+      .orange-image{
+        /* border: 1px solid; */
+      }
     
+      .more-menu{
+        display: block;
+      }
+
+      .more-menu{
+        padding: 0.8rem;
+        color: #fff;
+        background: blue;
+        border: none;
+        border-radius: 5px;
+      }
 }
 
 
