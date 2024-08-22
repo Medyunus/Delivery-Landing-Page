@@ -228,12 +228,13 @@ position: absolute;
 
 .next-title{
     text-align: center;
-    padding: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 5rem;
   }
 
   .first-title{
     font-size: 0.9rem;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     color: blue;
     font-weight: 900;
   }
@@ -255,7 +256,8 @@ position: absolute;
     width: 90%;
     margin: 0 auto;
     height: 250vh;
-    margin-top: 20px;
+    position: relative;
+    top: 0px;
     
     
 
@@ -309,6 +311,104 @@ padding: 0.5rem;
     font-weight: bold;
   }
 
+
+  /* menu section */
+
+  .menu-section{
+    background: var(--primary);
+   
+   
+  }
+
+  .menu-title{
+    text-align: center;
+    padding-top: 1rem;
+   
+    
+  }
+
+  .menu-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* border: 1px solid; */
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 450vh;
+    margin-top: 10px;
+  }
+
+  .menu-container{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+
+  .menu-container1{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+  }
+
+  .first-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  
+  .second-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .menu-quote{
+    /* border: 1px solid; */
+    text-align: center;
+  }
+
+  .menu-header{
+    /* border: 1px solid; */
+    text-align: center;
+  }
+  
+  .menu-price{
+    /* border: 1px solid; */
+    text-align: center;
+    color: blue;
+
+  }
+
+
+
+
+  .more-menu{
+    display: block;
+  }
+
+  .more-menu{
+    padding: 0.8rem;
+    color: #fff;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+  }
+
+
+  /* Testimonial section style here */
 
 
 
@@ -514,7 +614,7 @@ padding: 0.5rem;
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 30px;
         /* border: 1px solid; */
         align-items: center;
         width: 90%;
@@ -534,13 +634,15 @@ padding: 0.5rem;
 
       .first-menu{
         display: flex;
-        gap: 30px;
+        flex-direction: row;
+        gap: 40px;
       }
 
       
       .second-menu{
         display: flex;
-        gap: 30px;
+        flex-direction: row;
+        gap: 40px;
       }
 
       .menu-quote{
@@ -559,20 +661,6 @@ padding: 0.5rem;
         color: blue;
     
       }
-
-
-
-      .rose-image{
-        /* border: 1px solid; */
-      }
-
-      .lemon-image{
-        /* border: 1px solid; */
-      }
-
-      .orange-image{
-        /* border: 1px solid; */
-      }
     
       .more-menu{
         display: block;
@@ -585,7 +673,93 @@ padding: 0.5rem;
         border: none;
         border-radius: 5px;
       }
+
+
+
+      /* Testimonial section style here */
+
+      .testimonial-section{
+        background: var(--primary);
+       
+       
+      }
+
+     .testimonial-container{
+      display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        /* border: 1px solid; */
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        height: 100vh;
+        border: 1px solid;
+     } 
+
+     .testimonial-image{
+      width: 40%;
+      height: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border:1px solid blue;
+      /* background: blue; */
+      border-radius: 2%;
+     }
+
+     .deliver-img{
+      width: 90%;
+      height: 90%;
+      margin: 0 auto;
+      border-radius: 5px;
+     }
+
+.testimonial-side{
+  border: 1px solid;
+  width: 50%;
+  padding: 2rem;
+  
 }
+
+
+.first-title{
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: blue;
+  font-weight: 900;
+}
+
+.testimonial-title{
+  border: 1px solid;
+  margin-bottom: 20px;
+  width: 100%;
+  
+}
+
+.testimonial-rates{
+  border: 1px solid;
+  padding: 2px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.rate-persons{
+  margin-bottom: 20px;
+}
+
+.image-profile{
+  width: 10%;
+  display: inline;
+  margin-right: 8px;
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+}
+
+}
+
 
 
 
